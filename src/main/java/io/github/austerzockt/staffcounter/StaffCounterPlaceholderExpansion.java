@@ -23,7 +23,7 @@ public class StaffCounterPlaceholderExpansion extends PlaceholderExpansion {
 
     @Override
     public String onPlaceholderRequest(Player player, @NotNull String identifier) {
-    if (identifier.equals("staff")) {
+    if (identifier.equals("counter")) {
         int amount = 0;
         for (Player s : Bukkit.getOnlinePlayers()) {
             if (s.hasPermission("staffcounter.staff")) {
