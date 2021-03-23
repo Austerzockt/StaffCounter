@@ -1,0 +1,14 @@
+name: StaffCounter
+version: ${project.version}
+main: io.github.austerzockt.staffcounter.StaffCounter
+api-version: 1.16
+prefix: StaffCounter
+depend: [ PlaceholderAPI ]
+authors: [ Austerzockt ]
+description: Adds one simple permission to count staff in a Placeholder
+permissions:
+  staffcounter.staff:
+    default: false
+    description: Permission for the Counter
+
+
